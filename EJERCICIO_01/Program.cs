@@ -17,7 +17,8 @@ namespace EJERCICIO_01
             n2 = Convert.ToInt32(Console.ReadLine());
             int suma = n1 + n2;
             Console.WriteLine("la respuesta es: ");
-            
+            Console.WriteLine("La suma de " + n1 + " y " + n2 + " es: " + suma);
+            Console.ReadLine();
         }
     }
 }
